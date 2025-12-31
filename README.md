@@ -39,24 +39,6 @@ This project analyzes job vacancy data to answer three key research questions:
 pip install seaborn matplotlib pandas
 ```
 
-## Usage
-
-Run the main program:
-```bash
-python main.py
-```
-
-Follow the interactive prompts:
-1. Select a question (1, 2, 3, or 4 to exit)
-2. Choose an industry sector from the displayed list
-3. View the generated analysis and visualization
-
-The program will:
-- Automatically filter data from the CSV file on first run
-- Cache filtered data for faster subsequent runs
-- Generate visualizations saved as PDF files
-- Display interactive plots
-
 ## Data Source
 
 This project uses data from **Statistics Canada** (Table 14-10-0328-01) on job vacancies across different:
@@ -69,17 +51,3 @@ This project uses data from **Statistics Canada** (Table 14-10-0328-01) on job v
 - **Question 1**: Generates `plot1.pdf` showing average job vacancies by province for selected industry
 - **Question 2**: In development
 - **Question 3**: Analyzes correlation between job vacancies and unemployment rates
-
-## Authors
-
-- **Haya Mahmoud** - Question 1 and Question 3 implementation
-- Additional contributor - Question 2 implementation
-
-## Project Information
-
-- **Course**: CIS2250
-- **Last Updated**: March 16, 2025
-
-## License
-
-This project uses publicly available data from Statistics Canada.
